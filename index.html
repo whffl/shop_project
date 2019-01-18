@@ -1,53 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="main.css">
+<head lang="ko" dir="ltr">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
     <title>shop</title>
-    <style type="text/css">
-        html,body{ margin:0; padding:0; width:100%; height:100%;}
-        .box{ width:100%; height:100%; position:relative; color:#ffffff; font-size:24pt;}
-    </style>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript">
-        window.onload = function () {
-            $(".box").each(function () {
-                // 개별적으로 Wheel 이벤트 적용
-                $(this).on("mousewheel DOMMouseScroll", function (e) {
-                    e.preventDefault();
-                    var delta = 0;
-                    if (!event) event = window.event;
-                    if (event.wheelDelta) {
-                        delta = event.wheelDelta / 120;
-                        if (window.opera) delta = -delta;
-                    } else if (event.detail) delta = -event.detail / 3;
-                    var moveTop = null;
-                    // 마우스휠을 위에서 아래로
-                    if (delta < 0) {
-                        if ($(this).next() != undefined) {
-                            moveTop = $(this).next().offset().top;
-                        }
-                    // 마우스휠을 아래에서 위로
-                    } else {
-                        if ($(this).prev() != undefined) {
-                            moveTop = $(this).prev().offset().top;
-                        }
-                    }
-                    // 화면 이동 0.8초(800)
-                    $("html,body").stop().animate({
-                        scrollTop: moveTop + 'px'
-                    }, {
-                        duration: 800, complete: function () {
-                        }
-                    });
-                });
-            });
-        }
-    </script>
 </head>
 <body>
-    <div class="box" style="background-color:#fff4e7;">
+    <div class="box">
             <header>
             </header>
             <section>
@@ -63,7 +24,7 @@
                 </div>
                 <p>프레첼머핀<br>6000원</p>
                 </div>
-                
+
                 <div id="wrap">
                 <div id="img3">
                 </div>
@@ -82,7 +43,7 @@
                 <p>꽃머핀<br>8000원</p>
                 </div>
 
-                <div id="wrap2">                        
+                <div id="wrap2">
                 <div id="img6">
                 </div>
                 <p>초코칩머핀<br>7000원</p>
@@ -107,47 +68,47 @@
                     </div>
                     <p>버터쿠키<br>3000원</p>
                     </div>
-    
+
                     <div id="wrap">
                     <div id="img9">
                     </div>
                     <p>딸기잼쿠키<br>3000원</p>
                     </div>
-                    
+
                     <div id="wrap">
                     <div id="img10">
                     </div>
                     <p>토끼쿠키<br>3000원</p>
                     </div>
-    
+
                     <div id="wrap">
                     <div id="img11">
                     </div>
                     <p>초코칩쿠키<br>2000원</p>
                     </div>
-    
+
                     <div id="wrap2">
                     <div id="img12">
                     </div>
                     <p>진저쿠키<br>2000원</p>
                     </div>
-    
-                    <div id="wrap2">                        
+
+                    <div id="wrap2">
                     <div id="img13">
                     </div>
                     <p>별쿠키<br>4000원</p>
                     </div>
-    
+
                     <div id="wrap2">
                     <div id="img14">
                     </div>
                     <p>눈꽃쿠키<br>4000원</p>
                     </div>
-    
+
                 </section>
                 <footer></footer>
     </div>
-    <div class="box" style="background-color:#fff4e7;">
+    <div class="box">
         <header>
         </header>
         <section>
@@ -163,7 +124,7 @@
             </div>
             <p>바크초콜릿<br>5000원</p>
             </div>
-            
+
             <div id="wrap">
             <div id="img17">
             </div>
@@ -182,7 +143,7 @@
             <p>화이트초콜릿<br>3000원</p>
             </div>
 
-            <div id="wrap2">                        
+            <div id="wrap2">
             <div id="img20">
             </div>
             <p>초콜릿세트<br>13000원</p>
@@ -197,7 +158,7 @@
         </section>
         <footer></footer>
     </div>
-    <div class="box" style="background-color:#fff4e7;">
+    <div class="box">
         <header>
         </header>
         <section>
@@ -213,7 +174,7 @@
             </div>
             <p>치즈케이크<br>18000원</p>
             </div>
-            
+
             <div id="wrap">
             <div id="img24">
             </div>
@@ -232,7 +193,7 @@
             <p>블루베리케이크<br>23000원</p>
             </div>
 
-            <div id="wrap2">                        
+            <div id="wrap2">
             <div id="img27">
             </div>
             <p>초코롤케이크<br>13000원</p>
@@ -243,9 +204,9 @@
             </div>
             <p>딸기롤케이크<br>14000원</p>
             </div>
-
         </section>
         <footer></footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
