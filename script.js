@@ -31,3 +31,14 @@ window.onload = function () {
         });
     });
 }
+
+//팝업창
+$("#close").on("click", close);
+function close(){
+    $("#pop").css({"display":"none"});
+}
+
+$("img").on("click", open);
+function open(){
+    $("#pop").css({"display":"block"});
+}
