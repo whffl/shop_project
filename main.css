@@ -5,12 +5,14 @@
     box-sizing: border-box;
     list-style: none;
 }
+
 html,body{
   margin:0;
   padding:0;
   width:100%;
   height:100%;
 }
+
 .box{
   width:100%;
   height:100%;
@@ -19,246 +21,97 @@ html,body{
   font-size:24px;
   background-color:#fff4e7;
 }
+
 header{
     width: 100%;
     height: 100px;
-    border: 1px solid aquamarine;
 }
+
 section{
     width: 100%;
-    height: 770px;
-    border: 1px solid blue;
+    height: 780px;
+    background-color:rgba(255, 255, 255, 0.4);
 }
+
 footer{
     width: 100%;
     height: 130px;
-    border: 1px solid red;
+    padding-top:20px;
+    padding-right:100px;
+    font-size: 22px;
+    color:black;
+    text-align:right;
+    font-family: 'Nanum Pen Script', cursive;
 }
+
 .title{
-    color: black;
-    font-size: 35px;
+    padding-top:20px;
+    color: white;
+    text-shadow: black 1px 1px 1px ;
+    font-size: 42px;
     text-align: center;
     font-family: 'Dancing Script', cursive;
 }
 
-#img1{
+#img1 img, #img2 img, #img3 img, #img4 img, #img5 img, #img6 img, #img7 img, #img8 img, #img9 img,
+#img10 img, #img11 img, #img12 img, #img13 img, #img14 img, #img15 img, #img16 img, #img17 img,
+#img18 img, #img19 img, #img20 img, #img21 img, #img22 img, #img23 img, #img24 img, #img25 img,
+#img26 img, #img27 img, #img28 img
+{
     width: 250px;
     height: 250px;
-    background: url(muffins/choco.jpg);
-    background-size: cover;
 }
 
-#img2{
-    width: 250px;
-    height: 250px;
-    background: url(muffins/pretzels.jpg);
-    background-size: cover;
-}
-
-#img3{
-    width: 250px;
-    height: 250px;
-    background: url(muffins/pink.jpg);
-    background-size: cover;
-}
-
-#img4{
-    width: 250px;
-    height: 250px;
-    background: url(muffins/frozen.jpg);
-    background-size: cover;
-}
-
-#img5{
-    width: 250px;
-    height: 250px;
-    background: url(muffins/flower.jpg);
-    background-size: cover;
-}
-
-#img6{
-    width: 250px;
-    height: 250px;
-    background: url(muffins/chocochip.jpg);
-    background-size: cover;
-}
-
-#img7{
-    width: 250px;
-    height: 250px;
-    background: url(muffins/muffin.jpg);
-    background-size: cover;
-}
-
-#img8{
-    width: 250px;
-    height: 250px;
-    background: url(cookies/butter.jpg);
-    background-size: cover;
-}
-
-#img9{
-    width: 250px;
-    height: 250px;
-    background: url(cookies/jam.jpg);
-    background-size: cover;
-}
-
-#img10{
-    width: 250px;
-    height: 250px;
-    background: url(cookies/rabbit.jpg);
-    background-size: cover;
-}
-
-#img11{
-    width: 250px;
-    height: 250px;
-    background: url(cookies/cookie.jpg);
-    background-size: cover;
-}
-
-#img12{
-    width: 250px;
-    height: 250px;
-    background: url(cookies/christmas.jpg);
-    background-size: cover;
-}
-
-#img13{
-    width: 250px;
-    height: 250px;
-    background: url(cookies/star.jpg);
-    background-size: cover;
-}
-
-#img14{
-    width: 250px;
-    height: 250px;
-    background: url(cookies/snowflake.jpg);
-    background-size: cover;
-}
-
-#img15{
-    width: 250px;
-    height: 250px;
-    background: url(chocolate/rabbit.jpg);
-    background-size: cover;
-}
-
-#img16{
-    width: 250px;
-    height: 250px;
-    background: url(chocolate/bark.jpg);
-    background-size: cover;
-}
-
-#img17{
-    width: 250px;
-    height: 250px;
-    background: url(chocolate/ice-cream.jpg);
-    background-size: cover;
-}
-
-#img18{
-    width: 250px;
-    height: 250px;
-    background: url(chocolate/minibell.jpg);
-    background-size: cover;
-}
-
-#img19{
-    width: 250px;
-    height: 250px;
-    background: url(chocolate/white.jpg);
-    background-size: cover;
-}
-
-#img20{
-    width: 250px;
-    height: 250px;
-    background: url(chocolate/chocolates.jpg);
-    background-size: cover;
-}
-
-#img21{
-    width: 250px;
-    height: 250px;
-    background: url(chocolate/candy.jpg);
-    background-size: cover;
-}
-
-#img22{
-    width: 250px;
-    height: 250px;
-    background: url(cake/straberry.jpg);
-    background-size: cover;
-}
-
-#img23{
-    width: 250px;
-    height: 250px;
-    background: url(cake/cheese.jpg);
-    background-size: cover;
-}
-
-#img24{
-    width: 250px;
-    height: 250px;
-    background: url(cake/greentea.jpg);
-    background-size: cover;
-}
-
-#img25{
-    width: 250px;
-    height: 250px;
-    background: url(cake/choco.jpg);
-    background-size: cover;
-}
-
-#img26{
-    width: 250px;
-    height: 250px;
-    background: url(cake/blueberry.jpg);
-    background-size: cover;
-}
-
-#img27{
-    width: 250px;
-    height: 250px;
-    background: url(cake/chocoroll.jpg);
-    background-size: cover;
-}
-
-#img28{
-    width: 250px;
-    height: 250px;
-    background: url(cake/strawberryroll.jpg);
-    background-size: cover;
-}
-
-#wrap{
+#wrap1{
     float: left;
     width: 250px;
-    height: 300px;
+    height: 310px;
     margin-left: 9%;
     margin-top: 3%;
-    border: 1px solid purple;
     font-size: 22px;
     text-align: center;
     color: black;
+    background-color: white;
     font-family: 'Nanum Pen Script', cursive;
+    overflow: hidden;
+    margin-bottom:20px;
 }
 
 #wrap2{
     float: left;
     width: 250px;
-    height: 300px;
+    height: 310px;
     margin-left: 15%;
     margin-top: 3%;
-    border: 1px solid purple;
     font-size: 22px;
     text-align: center;
     color: black;
+    background-color: white;
+    overflow: hidden;
     font-family: 'Nanum Pen Script', cursive;
+}
+
+#pop{
+width:800px;
+height:800px;
+margin-left:29%;
+background-color:white;
+border: 2px solid blue;
+position:absolute;
+display:none;
+}
+
+#popcorn{
+position:absolute;
+width: 1000px;
+height: 1000px;
+}
+
+#popcorn #close{
+background-color:#e7e7e7; color: black;
+border:1px solid #e7e7e7; color: black;
+transition-duration: 0.4s;
+font-size: 16px;
+margin-top:20px;
+margin-left:50px;
 }
